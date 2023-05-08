@@ -1,6 +1,6 @@
 import { GPTStream, GPTStreamPayload } from "@/utils/GPTStream";
 
-if (!process.env.OPENAI_API_KEY) {
+if (!process.env.NEXT_PUBLIC_OPENAI_API_KEY) {
   throw new Error("Missing env var from OpenAI");
 }
 
